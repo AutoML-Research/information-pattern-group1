@@ -50,12 +50,12 @@ A fairly large model VGG-16 worked on test data, but also a LeNet variant, a muc
 
 It turned out our problem was not architectural or model-size-related but it was a data definition problem. Definition of our labels did not hold across cities. Also we never had enough sampling rate to accomodate enough amount of changes over time for a 25-km speeding e-scooter wheel. This unabled our system to differentiate cobblestone from asphalt.
 
-Raytune was unable to provide feedback about how our training data was not representative, there was no instructions about generalization capabilities or data collection practices.
 
 
 ## Known Uses
 *Where else might this pattern apply? Are there contexts where it would be unsuitable?*#
 
+Raytune was unable to provide feedback about how our training data was not representative, there was no instructions about generalization capabilities or data collection practices.
 
 
 
