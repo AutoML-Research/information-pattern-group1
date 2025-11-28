@@ -34,19 +34,23 @@ Explainability: Why does the model make the decisions it makes is important for 
 ## Solution
 *Describe what specific information you collect to achieve your goal and your method to aquired this information.*
 
-Optuna and Tpot enabled us   
+Optuna and Tpot enabled us tuning our hyperparameters and making model selection decisions. 
+ 
 
 ## Rationale
 *Explain why this specific information is the right choice to achieve your goal.*
 
+The goal was to understand the effect of the noise: The tool would enable us to see if we bias we face is stemming from the data or the architecture.  
 
 
 ## Resulting Context
 *Describe the outcome. What are the advantages, disadvantages, or trade-offs?*
 
+Our suspicions about the data bias was verified: Architectural decision that we have made prior using automl-like tools were not the source of the problems.
 
+Using the automl-like tools increased the amount of work unnecessarily, return on investment was underwhelming.
 
 ## Known Uses
 *Where else might this pattern apply? Are there contexts where it would be unsuitable?*
 
-
+Benefits of automl-like tools would be limited where experts opinions about where the bias stemming from are clear and accurate. In a scenario where data is extremely noisly, the GIGO principal holds.
