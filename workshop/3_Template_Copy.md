@@ -1,7 +1,7 @@
 # Pattern Name
 *Give the pattern a short and descriptive name.*
 
-
+High noise in target in a small dataset.
 
 ## Goal
 *Describe the goal that you want to reach. The goal should be reachable by collecting information about the data, model or optimization process.*
